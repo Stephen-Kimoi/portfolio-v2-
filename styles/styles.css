@@ -87,7 +87,7 @@ h1 {
 .navigation-bar { 
     top: 0;
     left: 0;
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: var(--main-red);
     z-index: 10; 
@@ -101,8 +101,9 @@ h1 {
     height: inherit;
 }
 .nav-content a {
-    height: fit-content;
-    width: fit-content;
+    height: inherit;
+    width: fit-content; 
+    text-align: center;
     width: 6rem;
     font-size: 1.5rem;
     padding-top: 0.6rem;
@@ -121,11 +122,8 @@ h1 {
     .nav-content {
         justify-content: center;
     } 
-    .nav-content a { 
-        padding-right: 1rem; 
-        text-decoration: none; 
-        font: 100; 
-        color: var(--main-white);  
+    .nav-content a {  
+      padding-left: 1rem; 
     }  
 } 
 
@@ -204,19 +202,22 @@ h1 {
     color: var(--main-white);
     border-bottom: 0.1rem solid var(--main-white);
 }
+.project-link {
+    width: fit-content;
+    margin: 1rem auto 0 auto; 
+    /* box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
+} 
+.project-image {
+    width: inherit;
+}
 .code {
     color: var(--main-grey);
     transition: color 0.3s ease-out;
 }
-.project-image {
-    width: fit-content;
-    margin: 1rem auto 0 auto; 
-    /* box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
-}
-.project-image:hover .code {
+.project-link:hover .code {
     color: #ff7f50;
 } 
-.projects-samples .project-image {
+.projects-samples .project-link {
     width: inherit;
 }
 .project-title {
