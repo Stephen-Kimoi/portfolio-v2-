@@ -3,4 +3,4 @@
 A brief exaple of a portfolio website 
 
 ## Check it out
-![Debrief](/images/example.png?raw=true "Employee data title") 
+![Image](/images/example.png?raw=true "Employee data title") 
