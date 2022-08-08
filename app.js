@@ -50,7 +50,7 @@ window.addEventListener('load', () => {
  
 // setTimeout(() => {
 //     preloader.style.display = 'none'
-// },3000)
+// },2000) 
 
 // GSAP animations
 const t1 = gsap.timeline({defaults: { ease: "power1.out"}}); 
